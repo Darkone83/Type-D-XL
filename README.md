@@ -109,7 +109,7 @@ Set up your WiFi by joining the Type D setup wifi network that Type D broadcasts
 - **Touch**
   - *Single tap*: Select menu item
   - *Swipe up/down*: Scroll through menus or items
-  - *Double tap*: Enter Type D Menu
+  - *Long Press*: Enter Type D XL Menu
 - **Settings Menu**
   - *Brightness*: Adjust display backlight (0-100%)
   - *WiFi Info*: Displays current WiFi network connection and IP address
