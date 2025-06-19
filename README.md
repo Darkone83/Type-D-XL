@@ -66,7 +66,8 @@ _Install these via Arduino Library Manager or from their GitHub releases:_
 5. **Open the `Type_D_XL.ino` project** and verify it compiles.
 6. **Flash the firmware** to your module using USB.
 7. **Connect to WiFi** Connect the device via wifi and select your network with the custom portal.
-8. **Upload files** Log in to the File Manager via the web interface Http://<device-ip>:8080 and upload your media. 
+8. **Upload files** Log in to the File Manager via the web interface Http://"device-ip":8080 and upload your media.
+9. **Upload Resource files** Resource files can be uploaded via the resource manager Http://"device-ip":/8080/resources.
 
 
    **Notes:**
@@ -87,7 +88,7 @@ Usage: gif_convert.py mygif.gif cool.gif
 
 ## WiFi Connection:
 
-Set up your WiFi by joining the Type D setup wifi network that Type D broadcasts. Join your preferred network and access the file manager to upload your content with the built-in file manager Http://"device ip":8080
+Set up your WiFi by joining the Type D XL Setup wifi network that Type D XL broadcasts. Join your preferred network and access the file manager to upload your content with the built-in file manager Http://"device ip":8080
 
 
 ## 🗺️ Navigation & Menu Tree
@@ -122,6 +123,7 @@ Set up your WiFi by joining the Type D setup wifi network that Type D broadcasts
 ## How It Works
 
 - **Type D XL Display** runs as a stand-alone smart dashboard and animated photo frame, displaying images and menus when no Xbox is online.
+- **Type D Display** Works along the XL display broadcasting on separate ID's
 - When a **Type D Expansion** module is active, the display instantly receives Xbox system telemetry and shows a themed overlay with the latest status—no configuration required. (Still in development)
 
 ---
