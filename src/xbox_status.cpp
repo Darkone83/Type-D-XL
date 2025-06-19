@@ -21,12 +21,16 @@ void show(LGFX* tft, const XboxStatus& packet) {
 
     tft->fillScreen(TFT_BLACK);
 
-    // Pyramid layout
+    // Scale factors for 480x480 display
+    const float scaleX = 480.0f / 320.0f; // Horizontal scaling factor (1.5)
+    const float scaleY = 480.0f / 240.0f; // Vertical scaling factor (2.0)
+
+    // Pyramid layout (scaled)
     const int centerX = tft->width() / 2;
-    const int topY = 30;
-    const int bottomY = 130;
-    const int pyramidOffsetX = 70;
-    const int iconSize = 40;
+    const int topY = 30 * scaleY;             // Scaled Y position
+    const int bottomY = 130 * scaleY;         // Scaled Y position
+    const int pyramidOffsetX = 70 * scaleX;   // Scaled X offset
+    const int iconSize = 40 * scaleY;         // Scaled icon size
     const int labelFont = 2;
     const int valueFont = 2;
 
