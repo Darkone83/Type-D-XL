@@ -56,7 +56,7 @@ _Install these via Arduino Library Manager or from their GitHub releases:_
 
 ### Type D Display 
 
-#### Web Flasher: [![Type D Web Flasher](https://img.shields.io/badge/Web%20Flasher-Type%20D-green?logo=esp32&logoColor=white)](https://darkone83.github.io/type-d.github.io/)
+#### Web Flasher: [![Type D XL Web Flasher](https://img.shields.io/badge/Web%20Flasher-Type%20D%20XL-green?logo=esp32&logoColor=white)](https://darkone83.github.io/type-d-xl.github.io/)
 
 #### Build Instructions
 1. **Install Arduino IDE** (recommended 2.x or later).

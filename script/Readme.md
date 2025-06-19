@@ -1,8 +1,8 @@
 # GIF Resize and Format Converter for AnimatedGIF (gif_convert.py)
 
-This script resizes any GIF to **240x240 pixels** and standardizes its format for use with the [AnimatedGIF](https://github.com/bitbank2/AnimatedGIF) Arduino library (or any embedded project needing strict GIF specs).
+This script resizes any GIF to **480x480 pixels** and standardizes its format for use with the [AnimatedGIF](https://github.com/bitbank2/AnimatedGIF) Arduino library (or any embedded project needing strict GIF specs).
 
-- All frames are resized to 240x240 using high-quality scaling.
+- All frames are resized to 480x480 using high-quality scaling.
 - All frames are set to 33ms (for **30 frames per second** playback).
 - Output GIF uses a global palette and settings for best compatibility.
 
@@ -44,7 +44,7 @@ python gif_convert.py source.gif resized.gif
 ## What It Does
 
 1. Loads the source GIF and iterates over every frame.
-2. Resizes each frame to 240x240 pixels with high quality.
+2. Resizes each frame to 480x480 pixels with high quality.
 3. Converts each frame to a palette-optimized GIF frame (256 colors).
 4. Forces each frame duration to 33ms (approx 30fps playback, ideal for most microcontroller libraries).
 5. Writes a new GIF file suitable for embedded playback.
