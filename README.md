@@ -122,7 +122,7 @@ Bottom:
 
 ![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/testfitb.jpg)
 
-5. **Install harness** The display needs 3.3v (you can use 5v if you use the JST 1.0 12P connector) tolerant, except when using USB C. We will be using the UART connector for this install. You can make your own witch uses a JST 1.0 4P connector or use the supplied one with the display.
+5. **Install harness** The display needs 3.3v (you can use 5v if you use the JST 1.0 12P connector), except when using USB C. We will be using the UART connector for this install. You can make your own witch uses a JST 1.0 4P connector or use the supplied one with the display.
 
 ![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/harness.jpg)
 
