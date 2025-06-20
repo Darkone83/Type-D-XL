@@ -82,9 +82,63 @@ Usage: gif_convert.py mygif.gif cool.gif
 
 ## Hardware installation
 
-### Display Preparation
+1. **Remove screws** Flip over your XBOX and removed all the bottom sace screws.
 
-### Top Case installation
+![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/screws.jpg)
+
+2. **Remove top shell and jewel** Remove the top shell and with a spudger or soft pritool, remove the XBOX jewel.
+
+Before:
+
+![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/jewelb.jpg)
+
+After:
+
+![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/jewela.jpg)
+
+3. **Remove RF shield** Remove the RF shield by prying up the pinch points shown in red.
+
+Before:
+
+![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/rfremove.jpg)
+
+After:
+
+![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/norf.jpg)
+
+4. **Cut out hole** Proceed to make your hole. It's recommended to start with a 66mm hole saw; the example image is a rough cut, but you want to ensure a snug fit while making sure you have plenty of clearance.
+
+![alt_text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/rough_hole.jpg)
+
+5. **Fit display** Test fit and trim as needed. A small bead of hot melt glue is plenty for holding in the display. Make sure you ribbon and USB-C ports are facing the front of the XBOX. See the reference image for the bottom.
+
+Top:
+
+![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/testfit.jpg)
+
+Bottom:
+
+![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/testfitb.jpg)
+
+5. **Install harness** The display needs 3.3v and is not 5v tolerant except when using USB C. We will be using the UART connector for this install. You can make your own witch uses a JST 1.0 4P connector or use the supplied one with the display.
+
+![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/harness.jpg)
+
+6. **Re-install RF shield** Reinstall your RF shield and route wires as shown or where is best for your installation.
+
+![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/rfroute.jpg)
+
+7. **Connect power** Connect your 3.3V and GND points to any suitable point for your installation.
+
+8. **Reassemble** Put your XBOX back together and enjoy the awesome display.
+
+Powered Off:
+
+![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/install.jpg)
+
+Booting UP:
+
+![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/boot.jpg)
 
 ## WiFi Connection:
 
