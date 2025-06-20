@@ -82,7 +82,7 @@ Usage: gif_convert.py mygif.gif cool.gif
 
 ## Hardware installation
 
-1. **Remove screws** Flip over your XBOX and removed all the bottom sace screws.
+1. **Remove screws** Flip over your XBOX and removed all the bottom case screws.
 
 ![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/screws.jpg)
 
@@ -110,7 +110,7 @@ After:
 
 ![alt_text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/rough_hole.jpg)
 
-5. **Fit display** Test fit and trim as needed. A small bead of hot melt glue is plenty for holding in the display. Make sure you ribbon and USB-C ports are facing the front of the XBOX. See the reference image for the bottom.
+5. **Fit display** Test fit and trim as needed. A small bead of hot melt glue is plenty for holding in the display. Make sure your ribbon and USB-C ports are facing the front of the XBOX. See the reference image for the bottom.
 
 Top:
 
@@ -124,7 +124,7 @@ Bottom:
 
 ![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/harness.jpg)
 
-6. **Re-install RF shield** Reinstall your RF shield and route wires as shown or where is best for your installation.
+6. **Reinstall RF shield** Reinstall your RF shield and route wires as shown or where is best for your installation.
 
 ![alt text](https://github.com/Darkone83/Type-D-XL/blob/main/images/install/rfroute.jpg)
 
@@ -188,7 +188,7 @@ You can access the diagnostic page once you have connected to wifi by visiting H
 
 ## Notes
 
-- GIF support is experimental! Keep your GIF's under 1MB. Larger GIF's may work, but cause crashing of the firmware.
+- GIF support is experimental! Keep your GIF's under 1MB. Larger GIF's may work, but may cause random firmware crashes.
 
 ___
 
