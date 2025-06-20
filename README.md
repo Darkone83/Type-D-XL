@@ -30,8 +30,6 @@
 
 **Amazon** <a href="https://www.amazon.com/dp/B0DDPQSKJD?ref=ppx_yo2ov_dt_b_fed_asin_title">Waveshare ESP32-S3 2.1inch Round Touch Screen</a>
 
-- **Mounting Screws** 4 2x10 mm pan head screws
-
 
 ## Purchasing
 
