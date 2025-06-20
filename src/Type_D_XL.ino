@@ -54,14 +54,16 @@ static int percent_to_hw(int percent) {
     return ((percent * 255) / 100);
 }
 
-void apply_brightness_on_boot() {
+void apply_saved_brightness() {
     Preferences prefs;
-    prefs.begin(BRIGHTNESS_PREF_NS, true); // read-only
-    int brightness = prefs.getUInt(BRIGHTNESS_PREF_KEY, 100); // default 100%
+    prefs.begin(BRIGHTNESS_PREF_NS, true);
+    int percent = prefs.getUInt(BRIGHTNESS_PREF_KEY, 100); // default to 100%
     prefs.end();
-    if (brightness < 5) brightness = 5;
-    if (brightness > 100) brightness = 100;
-    tft.setBrightness(percent_to_hw(brightness));
+
+    if (percent < 5) percent = 5;
+    if (percent > 100) percent = 100;
+    int hwval = (percent * 255) / 100;
+    tft.setBrightness(hwval);
 }
 
 void displayPortalInfo() {
@@ -117,7 +119,7 @@ void setup() {
   delay(50);
 
   tft.begin();
-  tft.setBrightness(100);
+  apply_saved_brightness();
     
   bootShowScreen();
   ImageDisplay::begin(&tft);
