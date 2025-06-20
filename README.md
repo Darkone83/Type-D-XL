@@ -35,7 +35,9 @@
 
 ## Purchasing
 
-- **Full kit** Darkone Customs (Coming soon!)
+- **Full kit** <a href="https://www.darkonecustoms.com/store/p/type-d-xl">Darkone Customs</a>
+
+- **Expansion module** <a href="https://www.darkonecustoms.com/store/p/type-d-telemetry-expansion">Darkone Customs</a>
 
 
 
