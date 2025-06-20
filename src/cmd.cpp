@@ -153,10 +153,16 @@ static void execute_cmd(uint8_t code, AsyncWebServerRequest* request, Stream* se
             ESP.restart();
             break;
         case CMD_DISPLAY_ON:
-            if (s_tft) s_tft->powerSave(false);
+            if (s_tft) {
+                s_tft->powerSave(false);
+                s_tft->setBrightness(255);
+            }
             break;
         case CMD_DISPLAY_OFF:
-            if (s_tft) s_tft->powerSave(true);
+            if (s_tft) {
+                s_tft->powerSave(true);
+                s_tft->setBrightness(0);
+            }
             break;
         default:
             Serial.printf("[cmd] Unknown code 0x%02X\n", code);
