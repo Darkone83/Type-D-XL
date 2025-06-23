@@ -3,7 +3,8 @@
 <div align=center>
   <img src="https://github.com/Darkone83/Type-D/blob/main/images/logo.jpg">
 
-  
+
+  <img src="https://github.com/Darkone83/Type-D-XL/blob/main/images/Type%20D%20XL.jpg">  
 </div>
 
 **Type D XL** is a three-part open-source system for the original Xbox, bringing a modern, customizable, and fully themed display experience to your console. It replaces the stock jewel with a 240x240 TFT touch display, controlled by an ESP32-S3, and optionally pairs with the Type D Expansion module for live Xbox status telemetry.
