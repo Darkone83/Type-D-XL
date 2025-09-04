@@ -12,7 +12,7 @@ def main():
         output_path = sys.argv[2]
     else:
         base, ext = os.path.splitext(input_path)
-        output_path = f"{base}_240x240.gif"
+        output_path = f"{base}_480x480.gif"
 
     # --- PROCESSING ---
     with Image.open(input_path) as im:
