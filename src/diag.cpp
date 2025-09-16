@@ -12,13 +12,15 @@ extern "C" {
 }
 
 static const char* resourceFiles[] = {
-    "amb.jpg", "app.jpg", "cpu.jpg", "DC.jpg",
-    "fan.jpg", "TD.jpg", "TR.jpg", "XBS.jpg"
+    "amb.jpg", "app.jpg"," av.jpg", "cpu.jpg", "DC.jpg",
+    "enc.jpg", "fan.jpg", "mac.jpg", "reg.jpg", "res.jpg", 
+    "TD.jpg", "TR.jpg", "tray.jpg", "ver.jpg", "XBS.jpg"
 };
 
 static const char* resourceNames[] = {
-    "Ambient Temp icon", "App Icon", "CPU Icon", "Darkone Customs Logo",
-    "Fan Icon", "Type D Logo", "Team Resurgent Logo", "XBOX-Scene Logo"
+    "Ambient Temp icon", "App Icon", "AV Pack Icon", "CPU Icon", "Darkone Customs Logo",
+    "Encoder Icon", "Fan Icon", "MAC Address icon", "Region Icon", "Resolution Icon", 
+    "Type D Logo", "Team Resurgent Logo", "Tray Icon", "XBOX Version Icon", "XBOX-Scene Logo"
 };
 
 // --- Format FFat (Erase) ---
