@@ -154,4 +154,4 @@ public:
 };
 
 // Version
-static constexpr char VERSION_TEXT[] = "v0.7.1 Beta";
+static constexpr char VERSION_TEXT[] = "v0.7.2 Beta";
